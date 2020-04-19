@@ -20,8 +20,8 @@
 %S	Second as a zero-padded decimal number.				Example - 00, 01, ..., 59
 %-S	Second as a decimal number.					Example - 0, 1, ..., 59
 %f	Microsecond as a decimal number, zero-padded on the left.	Example - 000000 - 999999
-%z	UTC offset in the form +HHMM or -HHMM.	 
-%Z	Time zone name.	 
+%z	UTC offset in the form +HHMM or -HHMM.
+%Z	Time zone name.
 %j	Day of the year as a zero-padded decimal number.		Example - 001, 002, ..., 366
 %-j	Day of the year as a decimal number.				Example - 1, 2, ..., 366
 %U	Week number of the year (Sunday as the first day of the week), All days in a new year preceding the first Sunday are considered to be in week 0.	Example - 00, 01, ..., 53

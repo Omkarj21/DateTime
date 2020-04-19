@@ -20,9 +20,11 @@ print("Current MicroSeconds", datetime.datetime.now().microsecond)
 now2 = datetime.datetime.now()
 t = now2.strftime("%H:%M:%S")
 print("time:", t)
-s1 = now2.strftime("%m/%d/%Y, %H:%M:%S")
+s1 = now2.strftime("%m/%b/%Y, %H:%M:%S")
+s11 = now2.strftime("%m-%b-%Y, %H:%M:%S")
 # mm/dd/YY H:M:S format
 print("s1:", s1)
+print("s11:", s11)
 s2 = now2.strftime("%d/%m/%Y, %H:%M:%S")
 # dd/mm/YY H:M:S format
 print("s2:", s2)
@@ -31,7 +33,9 @@ print("s2:", s2)
 # Python strptime() - string to datetime
 date_string = "21 June 2018"
 date_dt = datetime.datetime.strptime(date_string,"%d %B %Y")
+# date_dt1 = datetime.datetime.strptime(date_string,"%d %b %Y")
 print("strptime",date_dt)
+# print("strptime",date_dt1)
 
 # Python timezone()
 local = datetime.datetime.now()
